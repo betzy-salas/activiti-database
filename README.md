@@ -27,9 +27,9 @@ git clone https://github.com/betzy-salas/activiti-database.git
 En el archivo application.properties modificar las configuraciones de base de datos que sean necesarias
 
 ``` properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/activiti-db
-spring.datasource.username=postgres
-spring.datasource.password=postgres
+spring.datasource.url=jdbc:postgresql://localhost:5432/<DATABASE_NAME>
+spring.datasource.username=<DATABASE_USER>
+spring.datasource.password=<DATABASE_PASSWORD>
 ```
 
 ### 4. Ejecutar el proyecto para que se cree la base de datos
